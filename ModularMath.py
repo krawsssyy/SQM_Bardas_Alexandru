@@ -1,6 +1,6 @@
 class ModularMath:
-	def __init__(self, modulo):
-		self._m = modulo
+	def __init__(self, modul):
+		self._m = modul
 
 	def add(self, a, b):
 		return (a + b) % self._m
